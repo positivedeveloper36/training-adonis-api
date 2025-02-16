@@ -14,3 +14,6 @@ router.get('/', async () => {
     hello: 'world',
   }
 })
+
+router.get('apis', '#controllers/apis_controller.index')
+
